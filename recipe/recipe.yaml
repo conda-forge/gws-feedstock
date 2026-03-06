@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.7.0"
 
 package:
   name: gws
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/googleworkspace/cli/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 0013c992d7381ce8d5e5d09c79a132a2c5e548e9e310797ab84e301488856192
+  sha256: 1a7445195f96fd76860442c821f57614d41debfa5cfdc09791ac7db5f987288f
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
