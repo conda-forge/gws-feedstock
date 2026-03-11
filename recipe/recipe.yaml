@@ -1,5 +1,5 @@
 context:
-  version: "0.11.0"
+  version: "0.11.1"
 
 package:
   name: gws
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/googleworkspace/cli/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 45fcf2eedfb94bf8a57f57fc00bdce68e2b83dcdfd593b56efbb8258ae085aac
+  sha256: 431d03a02482a733d6ab4b752524a49e0ec6af28cc45e4eb7c4fd0ca4b74935f
 
 build:
   number: 0
